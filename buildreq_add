@@ -1,0 +1,25 @@
+# This file contains additional build requirements that did not get
+# picked up automatically. One name per line, no whitespace.
+futurist-python
+keystoneauth1-python
+oslo.utils-python
+oslo.serialization-python
+cliff-python
+netifaces-python
+netaddr
+msgpack-python-python
+PyYAML-python
+pyparsing-python
+prettytable
+cmd2-python
+keystonemiddleware
+gnocchi-python
+tempest-lib-python
+Sphinx-python
+sphinx-bootstrap-theme-python
+traceback2-python
+unittest2-python
+python-mimeparse-python
+extras-python
+extras
+

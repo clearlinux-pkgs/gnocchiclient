@@ -4,7 +4,7 @@
 #
 Name     : gnocchiclient
 Version  : 2.1.0
-Release  : 2
+Release  : 3
 URL      : http://tarballs.openstack.org/python-gnocchiclient/gnocchiclient-2.1.0.tar.gz
 Source0  : http://tarballs.openstack.org/python-gnocchiclient/gnocchiclient-2.1.0.tar.gz
 Summary  : Python client library for Gnocchi

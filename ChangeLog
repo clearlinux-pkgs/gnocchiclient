@@ -1,6 +1,49 @@
 CHANGES
 =======
 
+2.2.0
+-----
+
+* Show original_resource_id in resource list cmd
+* Add batching to client
+* Use overtest to run MySQL
+* Use tox to install Gnocchi
+* Quote query string when POST is used
+* tests: Fix option names
+* Ensure description exists for HTTP error
+* Translate resource_id to UUID5 format
+* The search query is mandatory
+* search: Ensure we didn't ignore extra chars
+* Fix a spell typos
+* Fix gate failures
+* exceptions: fix typo in class name
+* Supported resources list cli support
+* Clean flake8 ignore
+* Add granularity argument to measures show
+* fix test debug
+* noauth: fix endpoint envvar
+* supplement the type of marker explaination
+* one type error in resource.py
+* doc: fix typo in shell
+* doc: use pbr to auto-generate doc
+* Add mailmap entry for sileht
+* Add doc building for gnocchi.xyz
+* Use extras in setup.cfg for deps
+* Remove discover test-dependency
+* Remove testscenarios dependency
+* Remove i18n support
+* exceptions: use lower case everywhere
+* Fix docstring in from_response
+* exceptions: use url from Reponse object
+* Raise the correct exception on archive policy rule not found
+* utils: allow UUID to not have any dash
+* resource: move --delete-metric to update only
+* Support newer version of MySQL
+* remove MANIFEST.in
+* Fix gnocchi new install deps and func test
+* Fix delete metric on resource create/update
+* Make the wheel universal
+
 2.1.0
 -----
 

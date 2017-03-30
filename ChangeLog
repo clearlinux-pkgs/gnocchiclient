@@ -1,6 +1,134 @@
 CHANGES
 =======
 
+3.1.1
+-----
+
+* Remove pbr cap
+* doc: Add authentication examples
+* Trivial: remove support for py34
+
+3.1.0
+-----
+
+* exceptions: make sure resource type not found is checked before resource not found
+* allow to pass session and adapter options
+* Use new keystoneauth1 helper
+
+3.0.0
+-----
+
+* Fix data display when listing resources
+* shell: make client works with default Gnocchi installation
+* add note when using OS_AUTH_TYPE
+* docs: Add all commands help
+
+2.8.2
+-----
+
+* Switch to basic auth in functional tests and fix encoding
+
+2.8.1
+-----
+
+* auth: fix header type
+
+2.8.0
+-----
+
+* resource: Set correct attribute type
+* Stop always encoding resource
+* support fill option
+* Add support for basic authentication
+* [doc] Note lack of constraints is a choice
+* Remove unused method
+* Remove no more usefull help
+* Delete the useless code
+* Replaces uuid.uuid4 with uuidutils.generate_uuid()
+
+2.7.0
+-----
+
+* osc: Pass interface and region to gnocchi client
+* fix 409 exception regex
+* support resample option
+* Remove non working operator
+* Add ResourceTypeNotFound exception
+* Bump hacking to 0.12
+* Allow to update resource_type
+* Fix a has been deprecated api
+* Add "batch delete resource client"
+* Update .coveragerc after the removal of openstack directory
+* Updated coverage configuration file
+* metric: add support for `--create-metrics' in batch-resources-metrics
+
+2.6.0
+-----
+
+* enable pagination for metric list
+* Handles http error parse of keystone
+* Add reaggregation function argument to measures aggregation
+* add support for refresh
+* Use proper unicode type for help string
+
+2.5.0
+-----
+
+* Trival: Remove unused logging import
+* Update the home-page with developer documentation
+* Delete openstack/common from the exclude list of flake8 in tox
+* Add granularity argument to measures aggregation
+
+2.4.0
+-----
+
+* Use osc-lib instead of openstackclient
+* [resource] fix custom formatting of metrics
+* Add support for Python 3.5
+* fix custom formatting of archive policy
+* fix benchmark entry points
+* Fix bad entry points in setup.cfg
+* show and add unit for metric list and create
+* Remove refernces to queues in the osc client
+* add support for update archive policy
+* resource: show all attributes when requesting detailed history
+* fix typos in comment & help string
+* doc: some improvements
+* Allow to start Gnocchi command with OSC
+* Make utils.dict_to_querystring result predictible
+* shell: remove "resource list-types"
+
+2.3.1
+-----
+
+* utils: include 0 values
+* Bump hacking to 0.11.0
+
+2.3.0
+-----
+
+* Prepare compatibility with OSC
+* [Trivial] Remove executable privilege of doc/source/conf.py
+* Allow to delete a resource type
+* Allow to show a resource type
+* Allow create resource type
+* Allow to list resource-types
+* Switch from deprecated tempest-lib to tempest
+* metric: add support for groupby in aggregation
+* utils: switch format function to functional
+* utils: allow to encode params with list/tuple
+* benchmark: allow to wait for all measures to be processed
+* shell: document query parameters
+* cli: use type kwarg from argparse to parse queries
+* Remove redundant parentheses
+* Use pifpaf instead of overtest to run tests
+* benchmark: minimize client computed time
+* tests: do not use "low" as archive policy name
+* Corrected docstring for create metric
+* Raise an error when metric name doesn't exists
+* minimise report
+* Use overtest to run Gnocchi
+
 2.2.0
 -----
 
@@ -10,6 +138,7 @@ CHANGES
 * Use tox to install Gnocchi
 * Quote query string when POST is used
 * tests: Fix option names
+* shell: disallow abbrev in argparse
 * Ensure description exists for HTTP error
 * Translate resource_id to UUID5 format
 * The search query is mandatory

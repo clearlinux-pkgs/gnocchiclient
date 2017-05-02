@@ -6,7 +6,7 @@
 #
 Name     : gnocchiclient
 Version  : 3.1.1
-Release  : 12
+Release  : 13
 URL      : http://tarballs.openstack.org/python-gnocchiclient/gnocchiclient-3.1.1.tar.gz
 Source0  : http://tarballs.openstack.org/python-gnocchiclient/gnocchiclient-3.1.1.tar.gz
 Source99 : http://tarballs.openstack.org/python-gnocchiclient/gnocchiclient-3.1.1.tar.gz.asc

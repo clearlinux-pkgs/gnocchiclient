@@ -4,7 +4,7 @@
 #
 Name     : gnocchiclient
 Version  : 7.0.5
-Release  : 16
+Release  : 17
 URL      : https://files.pythonhosted.org/packages/9d/c8/1a254fb7128ed90d5b8f29d1f06fe18319d6c9ce83068379020394c52e98/gnocchiclient-7.0.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/9d/c8/1a254fb7128ed90d5b8f29d1f06fe18319d6c9ce83068379020394c52e98/gnocchiclient-7.0.5.tar.gz
 Summary  : Python client library for Gnocchi
